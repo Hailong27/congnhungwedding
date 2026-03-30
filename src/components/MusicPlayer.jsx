@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Pause, Music } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import musicFile from "../assets/nhacnen.mp3";
+import musicFile from "../assets/nhacnen.m4a";
 
 const MusicNote = ({ id, onComplete }) => {
   const notes = ["♪", "♫", "♬", "♩"];
